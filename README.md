@@ -10,12 +10,13 @@
 - Hỗ trợ **giám sát an toàn giao thông** hoặc **phân tích video giám sát**.  
 - Cung cấp **giao diện web thân thiện**, chạy trực tiếp bằng Streamlit.
 ---
----
 ## 🎥 Video Demo
-🎬 [Xem video demo trực tiếp tại đây](https://github.com/TSon11/VoThaiSon_HelmetDetection/blob/main/assets/demo.mp4)
 
-
-*Nhấn ▶ để xem video minh họa kết quả nhận diện người lái xe và mũ bảo hiểm.*
+<video width="720" controls>
+  <source src="https://github.com/TSon11/VoThaiSon_HelmetDetection/issues/1#issue-3501559001">
+  Your browser does not support the video tag.
+</video>
+*Nhấn ▶ để xem video minh họa kết quả*
 
 ## 🧾 Dataset
 
