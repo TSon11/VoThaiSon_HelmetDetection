@@ -13,11 +13,12 @@
 ---
 ## 🎥 Video Demo
 
-<video width="640" height="360" controls>
+<video width="720" controls>
   <source src="assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
-> _Nhấn ▶️ để xem video minh họa kết quả nhận diện người lái xe và mũ bảo hiểm._
+*Nhấn ▶ để xem video minh họa kết quả nhận diện người lái xe và mũ bảo hiểm.*
 
 ## 🧾 Dataset
 
