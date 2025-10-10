@@ -12,11 +12,7 @@
 ---
 ## 🎥 Video Demo
 
-<video width="720" controls>
-  <source src="https://github.com/TSon11/VoThaiSon_HelmetDetection/issues/1#issue-3501559001">
-  Your browser does not support the video tag.
-</video>
-*Nhấn ▶ để xem video minh họa kết quả*
+https://github.com/user-attachments/assets/c9da9315-6ab0-4997-b1eb-ea631762f679
 
 ## 🧾 Dataset
 
