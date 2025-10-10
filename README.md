@@ -1,4 +1,4 @@
-# 🪖 Helmet & Rider Detection using YOLOv8 + Roboflow API
+# 🪖 Helmet & Rider Detection
 
 Ứng dụng phát hiện **người lái xe máy (rider)** và **mũ bảo hiểm (helmet)** trong hình ảnh, được xây dựng bằng **YOLOv8** kết hợp **Roboflow Inference API**, và triển khai giao diện trực quan bằng **Streamlit**.
 
@@ -9,24 +9,19 @@
 - Phát hiện và phân loại **người lái xe máy** có hoặc không đội mũ bảo hiểm.  
 - Hỗ trợ **giám sát an toàn giao thông** hoặc **phân tích video giám sát**.  
 - Cung cấp **giao diện web thân thiện**, chạy trực tiếp bằng Streamlit.
-
 ---
-
-## ⚙️ Công nghệ sử dụng
-
-| Thành phần | Mô tả |
-|-------------|--------|
-| **YOLOv8 (Ultralytics)** | Mô hình phát hiện đối tượng (Object Detection) |
-| **Roboflow Inference API** | Chạy mô hình online qua cloud API |
-| **Streamlit** | Xây dựng giao diện web đơn giản và nhanh |
-| **Python 3.11** | Ngôn ngữ lập trình chính |
-| **OpenCV · Pillow · Torch · NumPy** | Thư viện xử lý ảnh và tính toán |
-
 ---
+## 🎥 Video Demo
+
+<video width="640" height="360" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+</video>
+
+> _Nhấn ▶️ để xem video minh họa kết quả nhận diện người lái xe và mũ bảo hiểm._
 
 ## 🧾 Dataset
 
-Bộ dữ liệu được quản lý trên **Roboflow Project “[danguit2-wxror](https://app.roboflow.com/danguit2-wxror)”**.  
+Bộ dữ liệu được quản lý trên **Roboflow Project**.  
 Mục tiêu: phát hiện **rider**, **helmet**, và **no-helmet** trong nhiều điều kiện ánh sáng và góc chụp khác nhau.
 
 **Thông tin tổng quan:**
@@ -52,18 +47,6 @@ Mô hình được huấn luyện bằng **YOLOv8** trên **Roboflow Train** và
 
 > 📈 *Kết quả được đo trên tập validation của phiên bản `detect-rider2/3`.*
 
----
-
-## 💻 Demo ứng dụng
-
-Người dùng có thể:
-- Tải ảnh lên hoặc chụp trực tiếp từ camera.  
-- Ứng dụng hiển thị kết quả nhận diện và bounding boxes trực tiếp trên ảnh.  
-- Giao diện thân thiện, thao tác dễ dàng.
-
-🎥 **Video minh họa kết quả:**
-[![Watch the video][(https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](https://www.youtube.com/watch?v=<VIDEO_ID>)
-](https://drive.google.com/file/d/1PEKz70paqt8j5T3_V44_tWrzQP4Tcxyi/view?usp=drive_link)
 ---
 
 ## 🚀 Hướng dẫn chạy
